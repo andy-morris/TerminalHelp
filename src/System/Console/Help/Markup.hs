@@ -1,9 +1,10 @@
+-- | Text markup for colouring.
 module System.Console.Help.Markup (
-    -- 'Markup' type
+    -- ** 'Markup' type
     Markup(..), Chunk(..),
-    -- * Parsing
+    -- ** Parsing
     parseMarkup, parseMarkup',
-    -- * Other operations
+    -- ** Other operations
     plainLength, specials
   ) where
 
